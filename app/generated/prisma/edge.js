@@ -314,7 +314,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\aadya\\OneDrive\\Desktop\\LegalHelp.ai-master\\app\\generated\\prisma",
+      "value": "D:\\LegalHelp.ai-master\\app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -332,7 +332,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\aadya\\OneDrive\\Desktop\\LegalHelp.ai-master\\prisma\\schema.prisma",
+    "sourceFilePath": "D:\\LegalHelp.ai-master\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -346,6 +346,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {

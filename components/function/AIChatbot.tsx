@@ -150,8 +150,7 @@ const AIChatbot = () => {
 
         try {
             const genAI = new GoogleGenerativeAI(apiKey);
-            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
+            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
             const legalContext = `You are a knowledgeable legal AI assistant specializing in Indian law and general legal principles. 
       You provide helpful, accurate, and professional legal guidance while always reminding users that your advice does not constitute formal legal counsel and they should consult with a qualified lawyer for specific legal matters.
       

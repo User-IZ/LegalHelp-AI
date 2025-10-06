@@ -1,3 +1,4 @@
+// app/api/access/grant/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 
 interface AccessRecord {
