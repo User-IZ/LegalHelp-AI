@@ -7,7 +7,7 @@ DROP TYPE IF EXISTS "ConsultationType" CASCADE;
 DROP TYPE IF EXISTS "RequestStatus" CASCADE;
 DROP TYPE IF EXISTS "PaymentStatus" CASCADE;
 DROP TYPE IF EXISTS "MessageType" CASCADE;
-DROP TYPE IF EXISTS "CallStatus" CASCADE;
+DROP TYPE IF EXISTS "CallStatus" CASCADE:
 
 -- Drop all tables if they exist
 DROP TABLE IF EXISTS vkyc_documents CASCADE;
