@@ -11,7 +11,6 @@ export async function middleware(request: NextRequest) {
   // Protected routes that require authentication AND VKYC
   const vkycRequiredPaths = [
     "/library",
-
     "/publish-report",
     "/profile",
   ];
