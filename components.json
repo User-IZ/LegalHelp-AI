@@ -5,6 +5,7 @@
   "tsx": true,
   "tailwind": {
     "config": "",
+    "config": "",
     "css": "app/globals.css",
     "baseColor": "neutral",
     "cssVariables": true,
