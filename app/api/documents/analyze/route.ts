@@ -207,7 +207,7 @@ export async function POST(req: NextRequest) {
 
     // 🔹 Initialize Gemini
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     // 🔹 Ask Gemini to analyze the PDF directly
     const prompt = `You are a professional legal document analyzer. 
 Please analyze this PDF and provide a structured JSON response with:
@@ -328,7 +328,7 @@ export async function POST(req: NextRequest) {
     // ✅ Initialize Gemini 2.5 Flash
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.5-flash",
       generationConfig: {
         temperature: 0.4,
         maxOutputTokens: 4096,
